@@ -1,1 +1,1 @@
-export const getUsers   = (records = 50) => `api/?results=${records}`;
+export const getUsersURL   = (records) => `api/?results=${records}`;
