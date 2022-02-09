@@ -5,7 +5,9 @@ import DEFINES from "./app/plugins/defines";
 
 const app = createApp(App);
 
+// Register all global components
 registerComponents(app);
+
 // Adding global variables
 app.config.globalProperties.$defines = DEFINES;
 app.mount('#app');
